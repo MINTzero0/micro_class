@@ -13,6 +13,7 @@
         <module>micro-web</module>
         <module>micro-web-starter</module>
         <module>micro-gateway</module>
+        <module>micro-web</module>
     </modules>
 
     <properties>
