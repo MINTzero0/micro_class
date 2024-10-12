@@ -5,9 +5,10 @@
         <groupId>groupId</groupId>
         <artifactId>micro_class</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath/>
     </parent>
     <groupId>org.mint</groupId>
     <artifactId>micro-web-starter</artifactId>
-    <name>Archetype - micro-web-starter</name>
+    <name>micro-web-starter</name>
     <url>http://maven.apache.org</url>
 </project>

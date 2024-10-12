@@ -5,11 +5,12 @@
         <groupId>groupId</groupId>
         <artifactId>micro_class</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath/>
     </parent>
     <groupId>org.mint</groupId>
     <artifactId>micro-public</artifactId>
     <packaging>war</packaging>
-    <name>micro-public Maven Webapp</name>
+    <name>micro-public</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
