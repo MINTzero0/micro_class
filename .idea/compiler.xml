@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/micro_class_backend/micro-web-starter/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="micro-web" />
+        <module name="micro-public" />
+        <module name="micro-web-starter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="micro-web-stater" target="20" />
+      <module name="micro_base" target="20" />
+      <module name="micro_class" target="20" />
+      <module name="micro_class_backend (1)" target="20" />
+      <module name="micro_class_backend (2)" target="20" />
+      <module name="micro_gateway" target="20" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
