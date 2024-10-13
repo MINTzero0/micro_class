@@ -9,12 +9,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="micro-web" />
-        <module name="micro-public" />
-        <module name="micro-web-starter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="micro-base" target="20" />
+      <module name="micro-gateway" target="20" />
+      <module name="micro-public" target="20" />
+      <module name="micro-web" target="20" />
+      <module name="micro-web-starter" target="20" />
       <module name="micro-web-stater" target="20" />
       <module name="micro_base" target="20" />
       <module name="micro_class" target="20" />

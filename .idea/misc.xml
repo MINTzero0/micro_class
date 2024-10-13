@@ -13,6 +13,15 @@
         <option value="$PROJECT_DIR$/micro_class_backend/micro-web-starter/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/micro_class_backend/micro-base/pom.xml" />
+        <option value="$PROJECT_DIR$/micro_class_backend/micro-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/micro_class_backend/micro-public/pom.xml" />
+        <option value="$PROJECT_DIR$/micro_class_backend/micro-web-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/micro_class_backend/micro-web/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_20" project-jdk-name="20" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
