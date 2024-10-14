@@ -7,16 +7,19 @@
         <groupId>groupId</groupId>
         <artifactId>micro_class</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath/>
     </parent>
 
     <groupId>org.mint</groupId>
     <artifactId>micro_class_backend</artifactId>
     <packaging>pom</packaging>
+
     <modules>
         <module>micro_class_base</module>
         <module>micro_class_public</module>
         <module>micro_class_gateway</module>
         <module>micro_class_web</module>
+        <module>dependencies_manager</module>
     </modules>
 
     <properties>
@@ -24,5 +27,42 @@
         <maven.compiler.target>20</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <!-- 依赖管理模块 -->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>dependencies</groupId>
+                <artifactId>dependencies_manager</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*</include>
+                </includes>
+            </resource>
+        </resources>
+
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

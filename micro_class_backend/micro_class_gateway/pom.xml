@@ -10,6 +10,10 @@
     </parent>
 
     <artifactId>micro_class_gateway</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>gateway</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>20</maven.compiler.source>
